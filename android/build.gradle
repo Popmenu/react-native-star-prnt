@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath("com.android.tools.build:gradle:4.0.1")
     }
 }
 
@@ -15,6 +15,7 @@ apply plugin: 'com.android.library'
 android {
     compileSdkVersion 29
     buildToolsVersion = "29.0.2"
+    supportLibVersion = "27.1.1"
 
     defaultConfig {
         minSdkVersion 21
